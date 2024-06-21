@@ -11,7 +11,7 @@ const FOOTERNAME = '> ＶＡＪＩＲＡ -  ＭＤ - Ｖ4';
 global.owner = process.env.OWNER_NUMBER  || '94787459795' ;  // ADD YOUR NUMBER WITHOUT +
     
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || 'youre session id' ,
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=HNM2FAjY#GxQwg9F-rQbNJE3NRlu1e1Im2wrMQcaf1WHSRQrHUTk' ,
 travaSend: process.env.TRAVA_SEND || '25' ,   
 MODERATORS : process.env.MODERATORS === undefined ? "94787459795,94764984597" : process.env.MODERATORS ,    
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE,/*add this in megabytes*/    
@@ -35,7 +35,7 @@ HEROKU_APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HE
 INBOX_USER: process.env.INBOX_USER === undefined ? '' : process.env.INBOX_USER,
 BANNED_USER: process.env.BANNED_USER === undefined ? '' : process.env.BANNED_USER ,    
 AI_MODE: process.env.AI_MODE === undefined ? 'true' : process.env.AI_MODE,
-ANTI_LINK: process.env.ANTI_LINK || false  ,
+ANTI_LINK: process.env.ANTI_LINK || true  ,
 BOT_DETECT: process.env.BOT_DETECT === undefined ? 'false' : process.env.BOT_DETECT,    
 ANTI_BOT: process.env.ANTI_BOT || false  ,
 ANTI_CALL: process.env.ANTI_CALL || true  ,
